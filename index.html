@@ -9,6 +9,17 @@
 </head>
 <body>
 <div id="app">
+    <div class="search-container" style="margin-bottom: 20px;">
+        <input type="text" id="search-input" placeholder="Pesquisar (pinyin, significado ou hanzi)..."
+               style="width: 100%; padding: 12px; border-radius: 8px; border: 1px solid #ddd; box-sizing: border-box; font-size: 16px;">
+    </div>
+
+    <div class="chips-container" style="margin-bottom: 20px; display: flex; justify-content: center; gap: 8px; flex-wrap: wrap;">
+        <button class="chip" data-level="all" style="padding: 8px 16px; border-radius: 20px; border: 1px solid #4a90e2; background: #e1f0ff; cursor: pointer; font-weight: bold;">Tudo</button>
+        <button class="chip" data-level="HSK1" style="padding: 8px 16px; border-radius: 20px; border: 1px solid #4a90e2; background: white; cursor: pointer;">HSK1</button>
+        <button class="chip" data-level="HSK2" style="padding: 8px 16px; border-radius: 20px; border: 1px solid #4a90e2; background: white; cursor: pointer;">HSK2</button>
+    </div>
+
     <div class="card">
         <div id="card-front">
             <h2 id="pinyin">Carregando...</h2>
@@ -26,8 +37,10 @@
         </div>
 
         <div class="list-buttons" style="margin-top: 15px; display: flex; flex-direction: column; gap: 10px;">
+            <button id="btn-favorite" style="background-color: #f1c40f; color: #333; font-weight: bold; padding: 10px; border-radius: 8px; border: none; cursor: pointer;">
                 ☆ Adicionar à Minha Lista
             </button>
+            <button id="btn-toggle-list" style="background-color: #2ecc71; color: white; font-weight: bold; padding: 10px; border-radius: 8px; border: none; cursor: pointer;">
                 Modo: Geral (Ver Minha Lista)
             </button>
         </div>

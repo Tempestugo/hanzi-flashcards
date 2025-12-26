@@ -10,43 +10,55 @@ body {
 
 #app {
     background: white;
-    padding: 2rem;
+    padding: 1.5rem;
     border-radius: 20px;
     box-shadow: 0 10px 25px rgba(0,0,0,0.1);
     text-align: center;
     width: 350px;
+    position: relative;
 }
 
-.card {
-    min-height: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+/* BUSCA */
+.search-container { position: relative; margin-bottom: 15px; }
+#search-input {
+    width: 100%; padding: 12px; border-radius: 8px;
+    border: 1px solid #ddd; box-sizing: border-box; font-size: 15px;
 }
+.search-dropdown {
+    position: absolute; width: 100%; background: white;
+    z-index: 100; border: 1px solid #ddd; border-top: none;
+    border-radius: 0 0 8px 8px; max-height: 200px;
+    overflow-y: auto; text-align: left; display: none;
+}
+.result-item {
+    padding: 10px; border-bottom: 1px solid #eee; cursor: pointer;
+    display: flex; justify-content: space-between; align-items: center;
+}
+.result-item:hover { background: #f8f9fa; }
 
+/* CHIPS */
+.chips-container { display: flex; justify-content: center; gap: 8px; margin-bottom: 15px; }
+.chip {
+    padding: 6px 14px; border-radius: 20px; border: 1px solid #4a90e2;
+    background: white; color: #4a90e2; cursor: pointer; font-size: 13px;
+}
+.chip.active { background: #4a90e2; color: white; font-weight: bold; }
+
+/* CARD */
+.card { min-height: 250px; display: flex; flex-direction: column; justify-content: center; }
 #character-target {
-    margin: 20px auto;
-    padding: 10px;
-    background: #fff;
-    border: 1px solid #eee;
-    border-radius: 12px;
-    min-height: 160px;
+    margin: 15px auto; padding: 10px; background: #fff;
+    border: 1px solid #eee; border-radius: 12px; min-height: 160px;
 }
+h2 { margin: 0; color: #333; font-size: 1.8em; }
+p { color: #666; font-size: 1.1em; margin-bottom: 15px; }
 
-h2 { margin: 0; color: #333; font-size: 2em; }
-p { color: #666; font-size: 1.2em; margin-bottom: 20px; }
-
+/* CONTROLES */
 .controls button {
-    background: #4a90e2;
-    color: white;
-    border: none;
-    padding: 12px 24px;
-    border-radius: 8px;
-    cursor: pointer;
-    font-weight: bold;
-    margin: 5px;
-    transition: background 0.3s;
+    border: none; padding: 12px 20px; border-radius: 8px;
+    cursor: pointer; font-weight: bold; margin: 5px; transition: 0.2s;
 }
-
-.controls button:hover { background: #357abd; }
+.main-buttons button { background: #4a90e2; color: white; }
+.btn-fav { background: #f1c40f !important; color: #333 !important; width: 95%; }
+.btn-toggle { background: #2ecc71 !important; color: white !important; width: 95%; }
 .hidden { display: none; }

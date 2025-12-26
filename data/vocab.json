@@ -1,0 +1,634 @@
+{
+  "零": {
+    "pinyin": "líng",
+    "meaning": "0, zero"
+  },
+  "一": {
+    "pinyin": "yī",
+    "meaning": "1, one"
+  },
+  "二": {
+    "pinyin": "èr",
+    "meaning": "2, two"
+  },
+  "三": {
+    "pinyin": "sān",
+    "meaning": "3, three"
+  },
+  "四": {
+    "pinyin": "sì",
+    "meaning": "4, four"
+  },
+  "五": {
+    "pinyin": "wǔ",
+    "meaning": "5, five"
+  },
+  "六": {
+    "pinyin": "liù",
+    "meaning": "6, six"
+  },
+  "七": {
+    "pinyin": "qī",
+    "meaning": "7, seven"
+  },
+  "八": {
+    "pinyin": "bā",
+    "meaning": "8, eight"
+  },
+  "九": {
+    "pinyin": "jiǔ",
+    "meaning": "9, nine"
+  },
+  "十": {
+    "pinyin": "shí",
+    "meaning": "10, ten"
+  },
+  "些": {
+    "pinyin": "xiē",
+    "meaning": "some"
+  },
+  "个": {
+    "pinyin": "gè",
+    "meaning": "one, a, an"
+  },
+  "块": {
+    "pinyin": "kuài",
+    "meaning": "piece of, lump of"
+  },
+  "本": {
+    "pinyin": "běn",
+    "meaning": "classifier for books"
+  },
+  "岁": {
+    "pinyin": "suì",
+    "meaning": "year, years old"
+  },
+  "茶": {
+    "pinyin": "chá",
+    "meaning": "tea"
+  },
+  "水果": {
+    "pinyin": "shuǐ guǒ",
+    "meaning": "fruit"
+  },
+  "苹果": {
+    "pinyin": "píng guǒ",
+    "meaning": "apple"
+  },
+  "水": {
+    "pinyin": "shuǐ",
+    "meaning": "water"
+  },
+  "菜": {
+    "pinyin": "cài",
+    "meaning": "vegetable, dish"
+  },
+  "米饭": {
+    "pinyin": "mǐ fàn",
+    "meaning": "cooked rice"
+  },
+  "杯子": {
+    "pinyin": "bēi zi",
+    "meaning": "cup, glass"
+  },
+  "家": {
+    "pinyin": "jiā",
+    "meaning": "home, family"
+  },
+  "饭店": {
+    "pinyin": "fàn diàn",
+    "meaning": "restaurant, hotel"
+  },
+  "学校": {
+    "pinyin": "xué xiào",
+    "meaning": "school"
+  },
+  "商店": {
+    "pinyin": "shāng diàn",
+    "meaning": "shop, store"
+  },
+  "医院": {
+    "pinyin": "yī yuàn",
+    "meaning": "hospital"
+  },
+  "火车站": {
+    "pinyin": "huǒ chē zhàn",
+    "meaning": "train station"
+  },
+  "上午": {
+    "pinyin": "shàng wǔ",
+    "meaning": "morning"
+  },
+  "中午": {
+    "pinyin": "zhōn gwǔ",
+    "meaning": "noon, midday"
+  },
+  "下午": {
+    "pinyin": "xià wǔ",
+    "meaning": "afternoon"
+  },
+  "今天": {
+    "pinyin": "jīn tiān",
+    "meaning": "today"
+  },
+  "明天": {
+    "pinyin": "míng tiān",
+    "meaning": "tomorrow"
+  },
+  "昨天": {
+    "pinyin": "zuò tiān",
+    "meaning": "yesterday"
+  },
+  "时候": {
+    "pinyin": "shí hóu",
+    "meaning": "time, moment, period"
+  },
+  "点": {
+    "pinyin": "diǎn",
+    "meaning": "point, dot, o'clock"
+  },
+  "现在": {
+    "pinyin": "xiàn zài",
+    "meaning": "now"
+  },
+  "分钟": {
+    "pinyin": "fēn zhōng",
+    "meaning": "minute"
+  },
+  "日": {
+    "pinyin": "rì",
+    "meaning": "sun, day"
+  },
+  "星期": {
+    "pinyin": "xīng qī",
+    "meaning": "week"
+  },
+  "月": {
+    "pinyin": "yuè",
+    "meaning": "month, moon"
+  },
+  "年": {
+    "pinyin": "nián",
+    "meaning": "year"
+  },
+  "后面": {
+    "pinyin": "hòu miàn",
+    "meaning": "back, behind"
+  },
+  "前面": {
+    "pinyin": "qián miàn",
+    "meaning": "in front, ahead"
+  },
+  "上": {
+    "pinyin": "shàng",
+    "meaning": "up"
+  },
+  "下": {
+    "pinyin": "xià",
+    "meaning": "down"
+  },
+  "里": {
+    "pinyin": "lǐ",
+    "meaning": "interior, inside"
+  },
+  "衣服": {
+    "pinyin": "yī fu",
+    "meaning": "clothing, clothes"
+  },
+  "老师": {
+    "pinyin": "lǎo shī",
+    "meaning": "teacher"
+  },
+  "同学": {
+    "pinyin": "tóng xué",
+    "meaning": "classmate"
+  },
+  "学生": {
+    "pinyin": "xué shēng",
+    "meaning": "student, pupil"
+  },
+  "医生": {
+    "pinyin": "yī shēng",
+    "meaning": "doctor"
+  },
+  "小姐": {
+    "pinyin": "xiǎo jiě",
+    "meaning": "miss"
+  },
+  "先生": {
+    "pinyin": "xiān shēng",
+    "meaning": "sir, teacher, husband"
+  },
+  "朋友": {
+    "pinyin": "péng yǒu",
+    "meaning": "friend"
+  },
+  "爸爸": {
+    "pinyin": "bà ba",
+    "meaning": "daddy, father"
+  },
+  "妈妈": {
+    "pinyin": "mā ma",
+    "meaning": "mom, mother"
+  },
+  "儿子": {
+    "pinyin": "ér zi",
+    "meaning": "son"
+  },
+  "女儿": {
+    "pinyin": "nǚ ér",
+    "meaning": "daughter"
+  },
+  "汉语": {
+    "pinyin": "hàn yǔ",
+    "meaning": "chinese language"
+  },
+  "字": {
+    "pinyin": "zì",
+    "meaning": "word, character"
+  },
+  "中国": {
+    "pinyin": "zhōng guò",
+    "meaning": "China"
+  },
+  "北京": {
+    "pinyin": "běi jīng",
+    "meaning": "Beijing"
+  },
+  "猫": {
+    "pinyin": "māo",
+    "meaning": "cat"
+  },
+  "狗": {
+    "pinyin": "gǒu",
+    "meaning": "dog"
+  },
+  "人": {
+    "pinyin": "rén",
+    "meaning": "person, people"
+  },
+  "名字": {
+    "pinyin": "míng zi",
+    "meaning": "name"
+  },
+  "东西": {
+    "pinyin": "dōng xī",
+    "meaning": "thing"
+  },
+  "书": {
+    "pinyin": "shū",
+    "meaning": "book, to write"
+  },
+  "椅子": {
+    "pinyin": "yǐ zi",
+    "meaning": "chair"
+  },
+  "桌子": {
+    "pinyin": "zhuō zi",
+    "meaning": "table, desk"
+  },
+  "电脑": {
+    "pinyin": "diàn nǎo",
+    "meaning": "computer"
+  },
+  "电视": {
+    "pinyin": "diàn shì",
+    "meaning": "television"
+  },
+  "电影": {
+    "pinyin": "diàn yǐng",
+    "meaning": "movie, film"
+  },
+  "飞机": {
+    "pinyin": "fēi jī",
+    "meaning": "airplane"
+  },
+  "出租车": {
+    "pinyin": "chū zū chē",
+    "meaning": "taxi"
+  },
+  "天气": {
+    "pinyin": "tiān qì",
+    "meaning": "weather"
+  },
+  "钱": {
+    "pinyin": "qián",
+    "meaning": "money, coin"
+  },
+  "冷": {
+    "pinyin": "lěng",
+    "meaning": "cold"
+  },
+  "热": {
+    "pinyin": "rè",
+    "meaning": "hot, warm"
+  },
+  "好": {
+    "pinyin": "hǎo",
+    "meaning": "good, nice"
+  },
+  "号": {
+    "pinyin": "hào",
+    "meaning": "number"
+  },
+  "高兴": {
+    "pinyin": "gāo xìng",
+    "meaning": "happy"
+  },
+  "漂亮": {
+    "pinyin": "piào liàng",
+    "meaning": "pretty, beautiful"
+  },
+  "少": {
+    "pinyin": "shǎo",
+    "meaning": "few, less"
+  },
+  "多": {
+    "pinyin": "duō",
+    "meaning": "many, much"
+  },
+  "小": {
+    "pinyin": "xiǎo",
+    "meaning": "small, young"
+  },
+  "大": {
+    "pinyin": "dà",
+    "meaning": "large, big"
+  },
+  "学习": {
+    "pinyin": "xué xí",
+    "meaning": "to study, to learn"
+  },
+  "工作": {
+    "pinyin": "gōng zuò",
+    "meaning": "to work, job"
+  },
+  "看见": {
+    "pinyin": "kàn jiàn",
+    "meaning": "to see, to catch sight of"
+  },
+  "看": {
+    "pinyin": "kàn",
+    "meaning": "to look, to see, to watch"
+  },
+  "读": {
+    "pinyin": "dú",
+    "meaning": "read"
+  },
+  "写": {
+    "pinyin": "xiě",
+    "meaning": "to write"
+  },
+  "听": {
+    "pinyin": "tīng",
+    "meaning": "to listen, to hear"
+  },
+  "说": {
+    "pinyin": "shuō",
+    "meaning": "to speak, to talk"
+  },
+  "叫": {
+    "pinyin": "jiào",
+    "meaning": "to call, to shout"
+  },
+  "请": {
+    "pinyin": "qǐng",
+    "meaning": "to invite, please"
+  },
+  "不客气": {
+    "pinyin": "bú kè qì",
+    "meaning": "you are welcome"
+  },
+  "谢谢": {
+    "pinyin": "xiè xie",
+    "meaning": "thank you"
+  },
+  "没关系": {
+    "pinyin": "méi guān xì",
+    "meaning": "it doesn’t matter"
+  },
+  "对不起": {
+    "pinyin": "duì bù qǐ",
+    "meaning": "sorry, I'm sorry"
+  },
+  "再见": {
+    "pinyin": "zài jiàn",
+    "meaning": "goodbye, see you"
+  },
+  "做": {
+    "pinyin": "zuò",
+    "meaning": "to do, to make"
+  },
+  "是": {
+    "pinyin": "shì",
+    "meaning": "to be"
+  },
+  "有": {
+    "pinyin": "yǒu",
+    "meaning": "to have, to exist"
+  },
+  "想": {
+    "pinyin": "xiǎng",
+    "meaning": "to think, to want"
+  },
+  "能": {
+    "pinyin": "néng",
+    "meaning": "can, be able to"
+  },
+  "会": {
+    "pinyin": "huì",
+    "meaning": "can, to be able to"
+  },
+  "住": {
+    "pinyin": "zhù",
+    "meaning": "to live"
+  },
+  "认识": {
+    "pinyin": "rèn shi",
+    "meaning": "to know, knowledge"
+  },
+  "来": {
+    "pinyin": "lái",
+    "meaning": "to come, to arrive"
+  },
+  "去": {
+    "pinyin": "qù",
+    "meaning": "to go, "
+  },
+  "回": {
+    "pinyin": "huí",
+    "meaning": "to return, to be back"
+  },
+  "下雨": {
+    "pinyin": "xià yǔ",
+    "meaning": "to rain"
+  },
+  "喜欢": {
+    "pinyin": "xǐ huān",
+    "meaning": "to like"
+  },
+  "爱": {
+    "pinyin": "ài",
+    "meaning": "to love, love"
+  },
+  "打电话": {
+    "pinyin": "dǎ diàn huà",
+    "meaning": "to make a phone call"
+  },
+  "买": {
+    "pinyin": "mǎi",
+    "meaning": "to buy"
+  },
+  "睡觉": {
+    "pinyin": "shuì jiào",
+    "meaning": "to sleep, to go to bed"
+  },
+  "坐": {
+    "pinyin": "zuò",
+    "meaning": "to sit"
+  },
+  "喝": {
+    "pinyin": "hē",
+    "meaning": "to drink"
+  },
+  "吃": {
+    "pinyin": "chī",
+    "meaning": "to eat"
+  },
+  "开": {
+    "pinyin": "kāi",
+    "meaning": "to open, to start, to drive"
+  },
+  "都": {
+    "pinyin": "dōu",
+    "meaning": "all"
+  },
+  "没有": {
+    "pinyin": "méi yǒu",
+    "meaning": "no, haven't, hasn't"
+  },
+  "不": {
+    "pinyin": "bù",
+    "meaning": "no, negation particle”"
+  },
+  "很": {
+    "pinyin": "hěn",
+    "meaning": "quite, very"
+  },
+  "太": {
+    "pinyin": "tài",
+    "meaning": "too much, very"
+  },
+  "几": {
+    "pinyin": "jǐ",
+    "meaning": "how many (1 to 10)"
+  },
+  "一点儿": {
+    "pinyin": "yīdiănr",
+    "meaning": "a little"
+  },
+  "多少": {
+    "pinyin": "duō shǎo",
+    "meaning": "how many (> 10)"
+  },
+  "怎么": {
+    "pinyin": "zěn me",
+    "meaning": "how, why, what"
+  },
+  "怎么样": {
+    "pinyin": "zěn me yàng",
+    "meaning": "how about"
+  },
+  "哪": {
+    "pinyin": "nǎ",
+    "meaning": "which, what"
+  },
+  "哪儿": {
+    "pinyin": "nǎr",
+    "meaning": "where"
+  },
+  "什么": {
+    "pinyin": "shěn me",
+    "meaning": "what"
+  },
+  "谁": {
+    "pinyin": "shéi",
+    "meaning": "who"
+  },
+  "那": {
+    "pinyin": "nà",
+    "meaning": "that, those, then"
+  },
+  "这": {
+    "pinyin": "zhè",
+    "meaning": "this, these"
+  },
+  "我": {
+    "pinyin": "wǒ",
+    "meaning": "I, me"
+  },
+  "我们": {
+    "pinyin": "wǒ men",
+    "meaning": "we, us"
+  },
+  "你": {
+    "pinyin": "nǐ",
+    "meaning": "you (singular, informal)"
+  },
+  "你们": {
+    "pinyin": "nǐ men",
+    "meaning": "you (plural)"
+  },
+  "他": {
+    "pinyin": "tā",
+    "meaning": "he, him"
+  },
+  "她": {
+    "pinyin": "tā",
+    "meaning": "she, her"
+  },
+  "他们": {
+    "pinyin": "tā men",
+    "meaning": "they (male+female / male, pl.)"
+  },
+  "她们": {
+    "pinyin": "tā men",
+    "meaning": "they (females, pl.)"
+  },
+  "和": {
+    "pinyin": "hé",
+    "meaning": "and, with"
+  },
+  "了": {
+    "pinyin": "le",
+    "meaning": "grammatical particle"
+  },
+  "吗": {
+    "pinyin": "ma",
+    "meaning": "interrogative particle"
+  },
+  "的": {
+    "pinyin": "de",
+    "meaning": "possession particle"
+  },
+  "呢": {
+    "pinyin": "ne",
+    "meaning": "interrogative or affirmative particle"
+  },
+  "在": {
+    "pinyin": "zài",
+    "meaning": "to be doing something ,at, in"
+  },
+  "喂": {
+    "pinyin": "wèi",
+    "meaning": "to feed, to breed"
+  },
+  "这儿": {
+    "pinyin": "zhè r",
+    "meaning": "here"
+  },
+  "那儿": {
+    "pinyin": "nà r",
+    "meaning": "there"
+  }
+}

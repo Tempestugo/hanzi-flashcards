@@ -1,27 +1,14 @@
 let vocab = {};
-let words = [];
 let mySelection = JSON.parse(localStorage.getItem('myHanziList')) || [];
-let currentIndex = 0;
-let writers = [];
-let mode = 'all'; // 'all' ou 'favorites'
 
 async function init() {
     const res = await fetch('data/vocab.json');
     vocab = await res.json();
     updateButtonText();
-    setList();
-    nextCard();
 }
 
-function setList() {
-    words = (mode === 'all') ? Object.keys(vocab) : mySelection;
-    if (words.length === 0) {
-        alert("Sua lista está vazia! Adicione palavras primeiro.");
-        mode = 'all';
-        words = Object.keys(vocab);
     }
 }
-
 function showCard(word) {
     const info = vocab[word];
     document.getElementById('pinyin').innerText = info.pinyin;
@@ -29,7 +16,6 @@ function showCard(word) {
     document.getElementById('character-target').innerHTML = '';
     document.getElementById('card-back').classList.add('hidden');
     
-    // Atualiza cor do botão se já estiver na lista
     const btnFav = document.getElementById('btn-favorite');
     btnFav.innerText = mySelection.includes(word) ? "⭐ Salvo" : "☆ Salvar";
 

@@ -8,34 +8,32 @@
     <script src="vendor/hanzi-writer.min.js"></script>
 </head>
 <body>
-    <div id="app">
-        <div class="card">
-            <div id="card-front">
-                <h2 id="pinyin">Carregando...</h2>
-                <p id="meaning"></p>
-            </div>
-            <div id="card-back" class="hidden">
-                <div id="character-target"></div>
-            </div>
+<div id="app">
+    <div class="card">
+        <div id="card-front">
+            <h2 id="pinyin">Carregando...</h2>
+            <p id="meaning"></p>
         </div>
-
-        <div class="controls">
-            <div class="main-buttons">
-                <button id="btn-flip">Virar Card</button>
-                <button id="btn-next">Próximo</button>
-            </div>
-            
-            <div class="list-buttons" style="margin-top: 15px; display: flex; flex-direction: column; gap: 10px;">
-                <button id="btn-favorite" style="background-color: #f1c40f; color: #333;">
-                    ☆ Adicionar à Minha Lista
-                </button>
-                <button id="btn-toggle-list" style="background-color: #2ecc71;">
-                    Modo: Geral (Ver Minha Lista)
-                </button>
-            </div>
+        <div id="card-back" class="hidden">
+            <div id="character-target"></div>
         </div>
     </div>
-    
-    <script src="js/app.js"></script>
+
+    <div class="controls">
+        <div class="main-buttons">
+            <button id="btn-flip">Virar Card</button>
+            <button id="btn-next">Próximo</button>
+        </div>
+
+        <div class="list-buttons" style="margin-top: 15px; display: flex; flex-direction: column; gap: 10px;">
+                ☆ Adicionar à Minha Lista
+            </button>
+                Modo: Geral (Ver Minha Lista)
+            </button>
+        </div>
+    </div>
+</div>
+
+<script src="js/app.js"></script>
 </body>
 </html>
